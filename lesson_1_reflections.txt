@@ -1,0 +1,43 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    It simply listed all different lines in doth files in comparing manner which allowed not to read the whole two files line-by-line and comparing them.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    It cuts the dead time reading whole text of compared files.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Automatic saving is good when you forget saving by yourself, whenevertheless it can do a bad job saving experiment code rewriting the source file.
+	Adding commits on logically-based system, by yourself, may do a good job when it goes to comparing commits or reverting to the previous file version.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Coz multiple files may affect one on each other, sowhy this feature is very useful.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log stands for listing all commits and the most recent appears at the top.
+	git diff requires 2 ID of compared commits and lists differences between that 2 versions.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    I always can undo changes.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    To try it in my Android Project.
+	
+-
+	
+	-
+	
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+	
+	Result is one main branch. Diagram helps to visually understand it.
